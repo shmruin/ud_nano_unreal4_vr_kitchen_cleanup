@@ -6,8 +6,8 @@
 
 # Introduction
 Part of udacity nanodegree project, unreal4 virtual reality.
-Cleanup the kitchen! You should create the dishes, grab them, and throw them to the sink!
-The more you throw the dishes to the sink during the time limit, the more you get the score.
+Cleanup the kitchen! Dishes are randomly created. So why not grab them, and throw them to the sink?
+Whenver the sink is flushed within the time set, you get the score by the number of dishes in it.
 
 # Version & Environment
  - Unreal4 version 4.15.3
@@ -18,7 +18,7 @@ The more you throw the dishes to the sink during the time limit, the more you ge
  -  No other 3rd party features (basic udacity contents)
 
 # User controls
- - Left motion controller trigger : Create the dishes
+ - Left motion controller trigger : Nothing
  - Right motion controller trigger : Grab/Drop the dish, select the action when end widget is shown.
  - Big red button : reset the game level
 
@@ -29,6 +29,7 @@ The more you throw the dishes to the sink during the time limit, the more you ge
  - Widgets in VR environment
  - Sound Cues
  - Events (like trigger box)
+ - Timer(in Assets/player/KCPlayerController) : `Event tick` related to `timeLeft` variable
 
 # License
 [MIT](License.md) © [shmruin](https://github.com/shmruin/)
