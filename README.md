@@ -29,8 +29,15 @@ Whenver the sink is flushed within the time set, you get the score by the number
  - Widgets in VR environment
  - Sound Cues
  - Events (like trigger box)
- - Timer(in Assets/player/KCPlayerController) : `Event tick` related to `timeLeft` variable
+
+# Timer
+![Alt text](screenshots/timer.PNG?raw=true "timer")
+ - in `Assets/player/KCPlayerController`
+ - spawn dish timer runs every tick of KCPlayerController
+ - Calculate the variable `spawnLeft, and when it comes to zero then reset to `spawnDelay` variable
+ - global timer is seperately exist to calculate the global game time left
 
 # License
 [MIT](License.md) © [shmruin](https://github.com/shmruin/)
 
+    
