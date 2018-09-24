@@ -34,7 +34,7 @@ Whenver the sink is flushed within the time set, you get the score by the number
 ![Alt text](screenshots/timer.PNG?raw=true "timer")
  - in `Assets/player/KCPlayerController`
  - spawn dish timer runs every tick of KCPlayerController
- - Calculate the variable `spawnLeft, and when it comes to zero then reset to `spawnDelay` variable
+ - Calculate the variable `spawnLeft`, and when it comes to zero then reset to `spawnDelay` variable
  - global timer is seperately exist to calculate the global game time left
 
 # License
